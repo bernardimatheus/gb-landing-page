@@ -15,14 +15,16 @@ export const Nav = styled.section`
   z-index: 100; /* this is optional and should be different for every project */
 
   .logo {
-
     display: flex;
+    width: XYpx;
+    height: XYpx;
     place-content: center;
     margin: 0 10px 0 10px;
 
     img {
-      width: 100%;
-      height: 100%;
+      max-width: 150px;
+      max-height: 50px;
     }
+
   }
 `;
