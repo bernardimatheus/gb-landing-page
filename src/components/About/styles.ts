@@ -37,9 +37,12 @@ export const Container = styled.section`
 `;
 
 export const ImageContainer = styled.div`
+
+  display: flex;
+
   img {
-    width: 100%;
     height: 100%;
+    width: 100%;
     margin-top: 1em;
   }
 
@@ -47,8 +50,10 @@ export const ImageContainer = styled.div`
     max-width: 1700px;
 
     img {
-      width: 100%;
-      height: 100%;
+      max-width: 475px;
+      max-height: 535px;
+      width: auto;
+      height: auto;
     }
   }
 `;

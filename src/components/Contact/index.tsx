@@ -3,7 +3,7 @@ import { FiMail, FiMapPin, FiPhoneCall } from 'react-icons/fi'
 import { Container, Background, GrayBackground, ContactContainer, ContactImageContainer } from './styles';
 
 import { isMobile } from 'react-device-detect';
-import contactImage from '../../assets/vaso01.jpg';
+import contactImage from '../../assets/03_Quarto_04.jpg';
 
 const Contact: React.FC = () => {
   return (
